@@ -11,7 +11,7 @@ import pymysql
 # Declaramos las variables
 ipServidor = "localhost"
 puertoServidor = 9797
-face_cascade = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
+face_cascade = cv.CascadeClassifier("recursos/haarcascade_frontalface_default.xml")
 
 # Configuramos los datos para conectarnos con el servidor
 # socket.AF_INET para indicar que utilizaremos Ipv4
@@ -63,34 +63,6 @@ def face_Detector(path):
             elif id == 1:
                 get_information(id)
             elif id == 3:
-                get_information(id)
-            elif id == 4:
-                get_information(id)
-            elif id == 5:
-                get_information(id)
-            elif id == 6:
-                get_information(id)
-            elif id == 7:
-                get_information(id)
-            elif id == 8:
-                get_information(id)
-            elif id == 9:
-                get_information(id)
-            elif id == 10:
-                get_information(id)
-            elif id == 11:
-                get_information(id)
-            elif id == 12:
-                get_information(id)
-            elif id == 13:
-                get_information(id)
-            elif id == 14:
-                get_information(id)
-            elif id == 15:
-                get_information(id)
-            elif id == 16:
-                get_information(id)
-            elif id == 17:
                 get_information(id)
 
             else:
